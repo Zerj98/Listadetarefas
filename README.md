@@ -19,4 +19,4 @@ Activity board inspired by Trello/Notion, built with vanilla HTML, CSS and JavaS
 - Layout responsivo com 3 colunas
 
 ## 👨‍💻 Autor
-Feito por [Zerj98](https://github.com/Zerj98) durante o aprendizado de desenvolvimento web.
+Feito por mim mesmo
