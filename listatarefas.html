@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="listatarefas.css">
+</head>
+<body>
+    <h1>📋 Quadro de Atividades</h1>
+    <div class="board">
+
+        <div class="coluna">
+            <h2>⏳ Tempo indeterminado</h2>
+            <input type="text" id="txtai" placeholder="Nova atividade...">
+            <input type="button" value="+ Adicionar" onclick="adicionarAI()">
+            <ul class="lista-itens" id="listaAI"></ul>
+        </div>
+
+        <div class="coluna">
+            <h2>🔴 Urgente</h2>
+            <input type="text" id="txtau" placeholder="Nova atividade...">
+            <input type="button" value="+ Adicionar" onclick="adicionarAU()">
+            <ul class="lista-itens" id="listaAU"></ul>
+        </div>
+
+        <div class="coluna">
+            <h2>✅ Feitas</h2>
+            <input type="text" id="txtaf" placeholder="Nova atividade...">
+            <input type="button" value="+ Adicionar" onclick="adicionarAF()">
+            <ul class="lista-itens" id="listaAF"></ul>
+        </div>
+
+    </div>
+    <script src="listatarefas.js"></script>
+</body>
+</html>
